@@ -5,8 +5,6 @@ Version:	0.5k
 Release:	0.001
 License:	LGPL
 Group:		Base/Kernel
-Group(de):	Grundsätzlich/Kern
-Group(pl):	Podstawowe/J±dro
 Source0:	http://www.fs.net/download/%{name}-%{version}.tar.gz
 BuildRequires:	gmp-devel
 BuildRequires:	openssl-devel
