@@ -9,7 +9,7 @@ Source0:	http://www.fs.net/download/%{name}-%{version}.tar.gz
 # Source0-md5:	74d49ffa8472afb0e28b097bec3e7df5
 BuildRequires:	gmp-devel
 BuildRequires:	openssl-devel >= 0.9.7c
-Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 SFS is a secure, global file system with completely decentralized
