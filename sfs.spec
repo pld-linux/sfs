@@ -1,12 +1,12 @@
 Summary:	Self-certifying File System (SFS)
 Summary(pl):	System plików z Automatyczna certyfikacja(SFS)
 Name:		sfs
-Version:	0.5k
-Release:	0.001
+Version:	0.7.2
+Release:	0.1
 License:	LGPL
 Group:		Base/Kernel
-Source0:	http://www.fs.net/download/%{name}-%{version}.tar.gz
-# Source0-md5:	74d49ffa8472afb0e28b097bec3e7df5
+Source0:	http://www.fs.net/sfswww/dist/%{name}-%{version}.tar.gz
+# Source0-md5:	1fb559f144c4d367ef01e93beb1dea1e
 BuildRequires:	gmp-devel
 BuildRequires:	openssl-devel >= 0.9.7c
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
