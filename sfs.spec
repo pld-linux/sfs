@@ -1,5 +1,5 @@
 Summary:	Self-certifying File System (SFS)
-Summary(pl):	System plików z Automatyczna certyfikacja(SFS)
+Summary(pl):	System plików z Automatyczna certyfikacja (SFS)
 Name:		sfs
 Version:	0.7.2
 Release:	0.1
@@ -32,7 +32,8 @@ certyfikaty.
 %setup -q
 
 %build
-./configure --prefix=%{_prefix} \
+./configure \
+	--prefix=%{_prefix} \
 	--enable-shlib \
 	--enable-shared \
 	--enable-static \
@@ -46,11 +47,14 @@ certyfikaty.
 	--with-sfsuser=sfs \
 	--with-sfsgroup=sfs
 
-%{__make} RPM_OPT_FLAGS="$RPM_OPT_FLAGS"
+%{__make} \
+	RPM_OPT_FLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%{__make} prefix=$RPM_BUILD_ROOT%{_prefix} install
+
+%{__make} install \
+	prefix=$RPM_BUILD_ROOT%{_prefix}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
