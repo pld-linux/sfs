@@ -29,6 +29,7 @@ pliki z kazdego serwera (kazdego klienta).
 SFS pozwala wymieniac pliki ponad obszarami bez informowania administratorow 
 lub organów autoryzujacych certyfikatyprep
 
+%prep
 %setup -q -n %{name}-0.5
 #%patch
 
