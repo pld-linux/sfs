@@ -7,7 +7,7 @@ License:	LGPL
 Group:		Base/Kernel
 Source0:	http://www.fs.net/download/%{name}-%{version}.tar.gz
 BuildRequires:	gmp-devel
-BuildRequires:	openssl-devel
+BuildRequires:	openssl-devel >= 0.9.7
 Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
