@@ -8,7 +8,7 @@ Group:		Base/Kernel
 Source0:	http://www.fs.net/sfswww/dist/%{name}-%{version}.tar.gz
 # Source0-md5:	1fb559f144c4d367ef01e93beb1dea1e
 BuildRequires:	gmp-devel
-BuildRequires:	openssl-devel >= 0.9.7c
+BuildRequires:	openssl-devel >= 0.9.7d
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
