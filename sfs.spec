@@ -29,7 +29,7 @@ obszarami bez informowania administratorów lub organów autoryzuj±cych
 certyfikaty.
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q
 
 %build
 ./configure --prefix=%{_prefix} \
