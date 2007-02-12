@@ -1,5 +1,5 @@
 Summary:	Self-certifying File System (SFS)
-Summary(pl):	System plików z Automatyczna certyfikacja (SFS)
+Summary(pl.UTF-8):   System plikÃ³w z Automatyczna certyfikacja (SFS)
 Name:		sfs
 Version:	0.7.2
 Release:	0.1
@@ -19,13 +19,13 @@ can access any server from any client. SFS lets you share files across
 administrative realms without involving administrators or
 certification authorities.
 
-%description -l pl
-SFS jest bezpiecznym globalnym systemem plików z kompletnie
-zdecentralizowan± kontrol±. Umo¿liwia Ci on dostêp do Twoich plików
-sk±dkolwiek i wymienianie ich z kimkolwiek, gdziekolwiek. Ka¿dy mo¿e
-ustawiæ serwer SFS i ka¿dy u¿ytkownik mo¿e pobieraæ/u¿ytkowaæ pliki z
-ka¿dego serwera (ka¿dego klienta). SFS pozwala wymieniaæ pliki ponad
-obszarami bez informowania administratorów lub organów autoryzuj±cych
+%description -l pl.UTF-8
+SFS jest bezpiecznym globalnym systemem plikÃ³w z kompletnie
+zdecentralizowanÄ… kontrolÄ…. UmoÅ¼liwia Ci on dostÄ™p do Twoich plikÃ³w
+skÄ…dkolwiek i wymienianie ich z kimkolwiek, gdziekolwiek. KaÅ¼dy moÅ¼e
+ustawiÄ‡ serwer SFS i kaÅ¼dy uÅ¼ytkownik moÅ¼e pobieraÄ‡/uÅ¼ytkowaÄ‡ pliki z
+kaÅ¼dego serwera (kaÅ¼dego klienta). SFS pozwala wymieniaÄ‡ pliki ponad
+obszarami bez informowania administratorÃ³w lub organÃ³w autoryzujÄ…cych
 certyfikaty.
 
 %prep
