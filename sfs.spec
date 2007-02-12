@@ -1,5 +1,5 @@
 Summary:	Self-certifying File System (SFS)
-Summary(pl.UTF-8):   System plików z Automatyczna certyfikacja (SFS)
+Summary(pl.UTF-8):	System plików z Automatyczna certyfikacja (SFS)
 Name:		sfs
 Version:	0.7.2
 Release:	0.1
